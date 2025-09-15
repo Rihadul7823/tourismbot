@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <category>
+    <pattern>OPEN SPOTIFY</pattern>
+    <template>You can open Spotify by visiting https://open.spotify.com or using the Spotify app 🎧</template>
+  </category>
+
+  <category>
+    <pattern>PLAY MUSIC</pattern>
+    <template>Sure! Opening Spotify for you: https://open.spotify.com 🎶</template>
+  </category>
+
+  <category>
+    <pattern>PAUSE MUSIC</pattern>
+    <template>Music paused ⏸️ (Use the Spotify app or website to control playback).</template>
+  </category>
+
+  <category>
+    <pattern>NEXT SONG</pattern>
+    <template>Skipping to the next track ⏭️ (on Spotify).</template>
+  </category>
+
+  <category>
+    <pattern>PREVIOUS SONG</pattern>
+    <template>Going back to the previous track ⏮️</template>
+  </category>
+
+  <category>
+    <pattern>SEARCH SONG *</pattern>
+    <template>Here’s a link to search that on Spotify: https://open.spotify.com/search/<star/> 🔍</template>
+  </category>
+
+</aiml>
